@@ -1,0 +1,100 @@
+/*
+.body-bg {
+    background-color: skyblue;
+}
+*/
+.navigation-bar {
+    padding-top: 50px;
+    text-align: center;
+    background-color: steelblue;
+    height: 100px;
+}
+
+.button {
+    background-color: skyblue;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 10px;
+    
+}
+
+.button-about-me {
+    background-color: #92d3ed;
+}
+
+.button-portfolio {
+    background-color: #a3c3dc;
+}
+
+.button-contact {
+        background-color: #dae7f1;
+}
+
+.about-me-sec {
+    background-image: url("ocean_and_sky.jpg");
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.greeting {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.selfie-sec {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.selfie {
+    display: block;
+    width: auto;
+    margin: auto;
+    border-color: steelblue;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+        
+}
+.job-titles {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+/*    padding-bottom: 50px;*/
+}
+
+.portfolio-sec {
+    background-color: #a3c3dc;
+    text-align: center;  /* This centers the pictures in portfolio section */
+    height: auto;
+}
+
+.port-image-placement {
+/*    display: block;*/
+/*    width: 100%;*/
+/*    margin: auto;*/
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+}
+
+.contact-sec {
+    background-color: #dae7f1;
+    height: 600px;
+    /*height: auto;*/
+}
+
+
+.section-title {
+    text-align: center;
+}

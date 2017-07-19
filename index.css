@@ -1,44 +1,41 @@
-/*
-.body-bg {
-    background-color: skyblue;
-}
-*/
-.navigation-bar {
-    padding-top: 50px;
-    text-align: center;
+/*styles the navigation bar block*/
+.nav-block {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: steelblue;
-    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 66px;
 }
 
-.button {
-    background-color: skyblue;
-    color: black;
-    border: none;
-    padding: 15px 32px;
+.nav-button {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.nav-button:last-child {
+    border-right: none;
+}
+.nav-link {
+    display: block;
+    color: #000;
     text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin: 5px 10px;
-    
+    padding: 24px 26px;
+    text-decoration: none;   /*removes the underline from the link*/
 }
 
-.button-about-me {
-    background-color: #92d3ed;
-}
-
-.button-portfolio {
-    background-color: #a3c3dc;
-}
-
-.button-contact {
-        background-color: #dae7f1;
+.nav-link:hover {
+    background-color: blueviolet;
+    color: azure;
 }
 
 .about-me-sec {
     background-image: url("ocean_and_sky.jpg");
     height: auto;
+    padding-top: 50px;
     padding-bottom: 40px;
 }
 
@@ -78,23 +75,68 @@
 }
 
 .port-image-placement {
-/*    display: block;*/
-/*    width: 100%;*/
-/*    margin: auto;*/
+    width: 510px;
+    height: 290px;
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
-
-}
+ }
 
 .contact-sec {
     background-color: #dae7f1;
     height: 600px;
-    /*height: auto;*/
-}
-
+    font-size: 18px;
+    text-align: center;
+ }
 
 .section-title {
     text-align: center;
+    padding-top: 60px;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+    
+.fa-envelope-o {
+    font-size: 48px;
+}
+
+
